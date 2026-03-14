@@ -32,6 +32,12 @@ function register_product_categories_taxonomy(): void {
 		'rest_base'         => 'product-categories',
 		'hierarchical'      => true,
 		'show_admin_column' => true,
+		'capabilities'      => array(
+			'manage_terms' => 'edit_posts',
+			'edit_terms'   => 'edit_posts',
+			'delete_terms' => 'edit_posts',
+			'assign_terms' => 'edit_posts',
+		),
 	);
 
 	register_taxonomy( 'product_category', array( 'product' ), $args );

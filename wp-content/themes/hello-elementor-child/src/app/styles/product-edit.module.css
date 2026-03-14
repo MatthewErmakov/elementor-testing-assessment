@@ -1,0 +1,48 @@
+.toolbar {
+	display: flex;
+	gap: 12px;
+	margin: 16px 0;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) 240px;
+	gap: 24px;
+	align-items: start;
+}
+
+.main :global(.components-base-control) {
+	margin-bottom: 16px;
+}
+
+.field {
+	margin-bottom: 16px;
+}
+
+.label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.description {
+	min-height: 140px;
+	padding: 10px 12px;
+	border: 1px solid #c3c4c7;
+	border-radius: 2px;
+	background: #fff;
+}
+
+.media {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+	margin-bottom: 16px;
+}
+
+.thumb {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
