@@ -1,4 +1,4 @@
-# Matvii Yermakov Testing Assessment to Elementor
+# Matvii Yermakov Testing Assessment for Elementor
 
 This repository contains a WordPress setup with a custom child theme:
 
